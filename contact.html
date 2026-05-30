@@ -129,39 +129,38 @@ footer{background:var(--panel);border-top:1px solid var(--border);padding:4rem 7
 <nav>
   <a class="nav-brand" href="index.html"><em>Rowdy</em> Towing</a>
   <ul class="nav-links">
-    <li><a href="index.html" style="color:var(--acc);">Home</a></li>
+    <li><a href="index.html">Home</a></li>
     <li><a href="services.html">Services</a></li>
     <li><a href="gallery.html">Gallery</a></li>
     <li><a href="about.html">About</a></li>
     <li><a href="location.html">Location</a></li>
-    <li><a href="contact.html">Contact</a></li></ul>
+    <li><a href="contact.html" style="color:var(--acc);">Contact</a></li></ul>
 </nav>
 
-<section id="hero">
-  <div class="hero-img"></div>
-  <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <h1 class="hero-title">Rowdy<span>Towing</span></h1>
-    <p class="hero-sub">24/7 emergency towing, roadside assistance, and flatbed service across Indiana. We're there fast.</p>
-    <div class="hero-cta">
-      <a href="tel:+17650000000" class="btn-primary">Call Now — 24/7</a>
-      <a href="#services" class="btn-outline">Our Services</a>
+<section id="booking" class="sec">
+  <div class="booking-layout">
+    <div class="booking-aside reveal">
+      <p class="sec-label">Dispatch</p>
+      <h2 class="sec-title">Need a<br>Tow Now?</h2>
+      <p style="font-size:14px;color:rgba(240,232,232,0.42);line-height:1.75;">Call us for the fastest response. Or fill out the form for non-emergency scheduling and quotes.</p>
+      <div class="booking-photo">
+        <div class="booking-photo-label"><p>Based Outta</p><strong>Indiana · 24/7 Dispatch</strong></div>
+      </div>
+    </div>
+    <div class="reveal d1">
+      <div class="form-grid">
+        <div class="field"><label>First Name</label><input type="text" placeholder="John"></div>
+        <div class="field"><label>Last Name</label><input type="text" placeholder="Smith"></div>
+        <div class="field"><label>Phone</label><input type="tel" placeholder="(765) 000-0000"></div>
+        <div class="field"><label>Current Location</label><input type="text" placeholder="City or cross street..."></div>
+        <div class="field"><label>Vehicle</label><input type="text" placeholder="2018 Ford F-150..."></div>
+        <div class="field"><label>Service Needed</label><select><option value="">Select...</option><option>Emergency Tow</option><option>Flatbed Tow</option><option>Roadside Assistance</option><option>Long Distance Tow</option><option>Motorcycle Tow</option><option>Lockout</option><option>Jump Start</option><option>Not Sure</option></select></div>
+        <div class="field full"><label>Additional Details</label><textarea placeholder="Situation, destination, any damage to vehicle..."></textarea></div>
+        <div class="field full"><button class="btn-primary" style="width:100%;text-align:center;border:none;" onclick="this.textContent='Request Sent ✓';this.style.background='#22c55e';setTimeout(()=>{this.textContent='Request Tow';this.style.background=''},3000)">Request Tow</button></div>
+      </div>
     </div>
   </div>
-  <div class="hero-badge">
-    <svg viewBox="0 0 150 150">
-      <defs><path id="cp" d="M75,75 m-55,0 a55,55 0 1,1 110,0 a55,55 0 1,1 -110,0"/></defs>
-      <text font-family="Barlow Condensed,sans-serif" font-size="10.5" font-weight="600" letter-spacing="3" fill="#ef4444"><textPath href="#cp">INDIANA · TOWING · 24/7 · </textPath></text>
-    </svg>
-    <span class="hero-badge-inner">RD</span>
-  </div>
-  <div class="scroll-hint">Scroll</div>
 </section>
-
-<div class="ticker-wrap"><div class="ticker-inner">
-  <span>Emergency Towing</span><span class="sep">✦</span><span>Flatbed Service</span><span class="sep">✦</span><span>Roadside Assistance</span><span class="sep">✦</span><span>Long Distance Tow</span><span class="sep">✦</span><span>Jump Start</span><span class="sep">✦</span><span>Lockout Service</span><span class="sep">✦</span>
-  <span>Emergency Towing</span><span class="sep">✦</span><span>Flatbed Service</span><span class="sep">✦</span><span>Roadside Assistance</span><span class="sep">✦</span><span>Long Distance Tow</span><span class="sep">✦</span><span>Jump Start</span><span class="sep">✦</span><span>Lockout Service</span><span class="sep">✦</span>
-</div></div>
 
 <footer>
   <div class="footer-top">
